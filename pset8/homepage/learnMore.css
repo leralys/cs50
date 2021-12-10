@@ -1,0 +1,35 @@
+.fas {
+    color: #212529;
+    font-size: 2em;
+}
+
+.card-title {
+    font-size: 1.3em;
+    /* text-align: center; */
+}
+
+.catchPic {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 0 40px 40px;
+}
+
+h2 {
+    color: #212529;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+main {
+    background-color: #f8f9fa;
+}

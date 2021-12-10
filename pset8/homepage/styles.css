@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@900&display=swap');
+
+footer {
+    background-color: #2E151B;
+    color: white;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Chivo', sans-serif;
+    padding-left: 1rem;
+}

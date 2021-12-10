@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+        <link href="styles.css" rel="stylesheet">
+        <link href="signUp.css" rel="stylesheet">
+        <title>My Webpage</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">YogaFriend</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="learnMore.html">Learn More</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reviews.html">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signUp.html">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <section>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1 col-form-label-lg">Email address</label>
+                        <input type="email" class="form-control form-control-lg " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1 col-form-label-lg">Password</label>
+                        <input type="password" class="form-control form-control-lg " id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword2 col-form-label-lg">Repeat password</label>
+                        <input type="password" class="form-control form-control-lg " id="exampleInputPassword2" placeholder="Repeat password">
+                    </div>
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                </form>
+                <div id="clickMe"><i class="fas fa-sort-down"></i></div>
+            </section>
+        </main>
+
+        <footer id="panel">
+            <ul>Follow us on social:
+                <li><a class="footLink nav-item" href="http://instagram.com">Instagram</a></li>
+                <li><a class="footLink nav-item" href="http://facebook.com">Facebook</a></li>
+                <li><a class="footLink nav-item" href="http://twitter.com">Twitter</a></li>
+            </ul>
+            
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <script>
+            const btnToggle = document.querySelector('#clickMe');
+            const panel = document.querySelector('footer');
+            btnToggle.addEventListener('click', function(){
+                if (panel.style.display = 'none'){
+                    panel.style.display = 'block';
+                }
+            });
+        </script>
+       
+    </body>
+</html>
